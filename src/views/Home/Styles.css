@@ -1,0 +1,45 @@
+.tarefas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: "Roboto", serif;
+
+  }
+  
+  .tarefa-item {
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    flex: 1 1 calc(30% - 20px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", serif;
+    max-height: 230px;
+  }
+  
+.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Roboto", serif;
+}
+
+.h1-home {
+  text-align: center;
+}
+
+.icon-home {
+  width: 100px;
+}
+
+.container-bebe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 70px;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+}
+
